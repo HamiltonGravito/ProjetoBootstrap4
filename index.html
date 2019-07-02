@@ -5,17 +5,120 @@
     <title>Curso Bootsatrap 4</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
 </head>
 
 <body>
-    <h1 class="">Olá Mundo!</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav class="breadcrumb">
+                    <a href="#" class="breadcrumb-item">Home</a>
+                    <a href="#" class="breadcrumb-item">Biblioteca</a>
+                    <a href="#" class="breadcrumb-item">Item</a>
+                    <span class="breadcrumb-item active">Bootstrap</span>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active">Home</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Biblioteca</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Biblioteca</a></li>
+                    <li class="breadcrumb-item active">Item</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Exemplo de Cabeçalho <span class="badge badge-secondary">Badge</span></h1>
+                <h2>Exemplo de Cabeçalho <span class="badge badge-sucess">Badge</span></h2>
+                <h3>Exemplo de Cabeçalho <span class="badge badge-danger">Badge</span></h3>
+                <h4>Exemplo de Cabeçalho <span class="badge badge-warning">Badge</span></h4>
+                <h5>Exemplo de Cabeçalho <span class="badge badge-info">Badge</span></h5>
+                <h6>Exemplo de Cabeçalho <span class="badge badge-dark">Badge</span></h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-secondary">
+                    Notificações<span class="badge badge-secondary">5</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-primary" role="alert">
+                    Texto do Alert! <a href="#" class="alert-link">Este é meu Link</a>, clique ou não!
+                </div>
+                <div class="alert alert-secondary" role="alert">
+                    Texto do Alert!
+                </div>
+            </div>
+            <div class="col">
+                <div class="alert alert-success" role="alert">
+                    Texto do Alert!
+                </div>
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    Texto do Alert!
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Fechar">
+                        <span aria-hidden="true">&times</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="alert alert-warning" role="alert">
+                    Texto do Alert!
+                </div>
+                <div class="alert alert-info" role="alert">
+                    Texto do Alert!
+                </div>
+            </div>
+            <div class="col">
+                <div class="alert alert-light" role="alert">
+                    Texto do Alert!
+                </div>
+                <div class="alert alert-dark" role="alert">
+                    <h3 class="alert-heading">Título do Alert!</h3>
+                    <p>
+                        Parágrafo 1.
+                    </p>
+                    <p>
+                        Parágrafo 2.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
 
 
-
-<script src="lib/jquery/dist/jquery.min.js"></script>
-<script src="lib/popperJs/dist/popper.min.js"></script>
-<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/popperJs/dist/popper.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
